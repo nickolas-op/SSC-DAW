@@ -7,6 +7,19 @@ body{
     background-color: gray;
     margin: -8px;
     font: bold;
+    
+}
+
+
+#Logo{
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+#Titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Principal{
@@ -21,7 +34,7 @@ body{
 }
 
 #Pri-2{
-    width: 500px;
+    width: 600px;
     height: auto;
-    margin-right: 100px;
+    margin-right: 150px;
 }

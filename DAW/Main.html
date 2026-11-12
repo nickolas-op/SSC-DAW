@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC</title>
+    <link rel="stylesheet" href="CSS/Sequencer.css">
+    <link rel="icon" type="image/png" href="IMG/logo.png">
+</head>
+<body>
+    <section class="Cabeçario">
+
+        <img id="Logo" src="IMG/logo-removebg.png" alt="Logo">
+
+        <h1 id="Titulo">
+        Sample System Cycle
+    </h1>
+    
+    </section>
+
+    <h1>Sequenciador Web</h1>
+    
+    <div class="controls">
+        <button id="playBtn" onclick="togglePlay()">Play</button>
+        <label>BPM: <input type="number" id="bpmInput" value="120" min="60" max="200" style="width: 60px;"></label>
+    </div>
+
+    <div class="sequencer" id="sequencerGrid"></div>
+
+</body>
+<script src="JS/Script.js"></script>
+</html>
