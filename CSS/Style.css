@@ -1,0 +1,27 @@
+body{
+    background-color: darkgray;   
+}
+
+.Cabeçario{
+    display: flex;
+    background-color: gray;
+    margin: -8px;
+    font: bold;
+}
+
+.Principal{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+#Pri-1{
+    margin-right: 800px;
+    margin-top: 90px;
+}
+
+#Pri-2{
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+}
